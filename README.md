@@ -4,6 +4,6 @@ For scrolling we save current page height using a javascript and we iterate unti
 scrolling even with UI change because of "show more jobs" button.
 
 First step is to scrape all the details shown on job cards without clicking it to find more information. This information is saved in Jobs list which we iterate over
-to find out more information about the job. each card is stored in <li> object and thus we iterate over its index using Jobs list as the length of list.
+to find out more information about the job. each card is stored in "<li>" object and thus we iterate over its index using Jobs list as the length of list.
 Note that: It is necessary to maximise the window of the automated chrome browser otherwise the UI will adapt and eventually give out error.
 
